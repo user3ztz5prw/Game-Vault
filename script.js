@@ -4,26 +4,26 @@
      somente números. Exemplo de formato: 5511999999999.
   2) Edite os produtos abaixo. Não use dados fictícios quando publicar a loja.
 */
-const WHATSAPP_NUMBER = "5500000000000"; // SUBSTITUA pelo seu número real
+const WHATSAPP_NUMBER = "559984378163"; // SUBSTITUA pelo seu número real
 
 const products = [
   {
     id: 1, name: "Conta Blox Fruits #01", game: "Blox Fruits", price: 20.99,
-    description: "Exemplo de anúncio. Edite para descrever nível, itens e progresso reais.",
-    tags: ["Conta de jogo", "Detalhes a confirmar"], symbol: "B", badge: "DESTAQUE"
+    description: "LV2800 + V4 CYBORG (FULL) + GOD + CDK + SG.",
+    tags: ["Conta de Blox Fruits","12 em Stock"], symbol: "B", badge: "OFERTA"
   },
   {
     id: 2, name: "Conta Free Fire #01", game: "Free Fire", price: 39.90,
-    description: "Exemplo de anúncio. Informe personagens, skins e itens incluídos.",
+    description: "MANDELA, COELHÃO, KALAHARI, TRANSFORMAÇÃO , 6 ANOS, 200 PEITORAIS.",
     tags: ["Conta de jogo", "Detalhes a confirmar"], symbol: "FF", badge: "OFERTA"
   },
   {
-    id: 3, name: "Conta Roblox #01", game: "Roblox", price: 29.90,
-    description: "Exemplo de anúncio. Descreva com precisão o conteúdo e as condições.",
-    tags: ["Conta de jogo", "Detalhes a confirmar"], symbol: "R", badge: ""
+    id: 3, name: "SEM STOCK", game: "Roblox", price: 00,00,
+    description: ".",
+    tags: ["Conta de jogo", "Detalhes a confirmar"], symbol: "ESGOTADO", badge: ""
   },
   {
-    id: 4, name: "Conta Blox Fruits #02", game: "Blox Fruits", price: 59.90,
+    id: 4, name: "SEM STOCK", game: "Blox Fruits", price: 59.90,
     description: "Exemplo de anúncio. Substitua pelo nível, itens e características reais.",
     tags: ["Conta de jogo", "Detalhes a confirmar"], symbol: "B", badge: ""
   },
@@ -33,7 +33,7 @@ const products = [
     tags: ["Conta de jogo", "Detalhes a confirmar"], symbol: "FF", badge: ""
   },
   {
-    id: 6, name: "Outros jogos #01", game: "Outros jogos", price: 49.90,
+    id: 6, name: "SEM STOCK", game: "Outros jogos", price: 49.90,
     description: "Exemplo de anúncio. Troque pelo jogo e pela descrição da oferta real.",
     tags: ["Conta de jogo", "Detalhes a confirmar"], symbol: "GV", badge: "NOVO"
   }
