@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b0b0c">
+  <meta name="description" content="Game Vault — catálogo de contas e itens gamer. Confira ofertas e fale conosco pelo WhatsApp.">
+  <title>Game Vault | Marketplace Gamer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="announcement"><span class="status-dot"></span> GAME VAULT <span class="announcement-separator">/</span> SEU PRÓXIMO NÍVEL COMEÇA AQUI</div>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Game Vault início">
+      <span class="brand-mark">GV</span><span>GAME<span class="gold">VAULT</span><small>GAMING MARKETPLACE</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    <nav class="main-nav" id="mainNav">
+      <a href="#catalogo">Catálogo</a><a href="#como-funciona">Como funciona</a><a href="#duvidas">Dúvidas</a>
+      <a class="nav-cta" href="#catalogo">Explorar contas <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="eyebrow-line"></span> MARKETPLACE GAMER</div>
+        <h1>Seu próximo<br>nível está <span class="gold">aqui.</span></h1>
+        <p>Encontre contas para seus jogos favoritos em um catálogo simples, direto e feito para quem leva o game a sério.</p>
+        <div class="hero-actions"><a class="button button-gold" href="#catalogo">Explorar catálogo <span>↘</span></a><a class="text-link" href="#como-funciona">Como funciona <span>→</span></a></div>
+        <div class="hero-proof"><div class="proof-icon">✦</div><div><strong>Escolha com clareza</strong><small>Veja os detalhes antes de conversar</small></div></div>
+      </div>
+      <div class="hero-art" aria-label="Arte abstrata dourada gamer">
+        <div class="art-grid"></div><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="vault-symbol"><span>G</span><i>V</i></div>
+        <div class="art-tag tag-top"><span class="tag-dot"></span> GAME VAULT <small>EST. 2026</small></div>
+        <div class="art-tag tag-bottom"><small>CURATED FOR</small><strong>PLAYERS.</strong></div>
+        <div class="art-number">001 <span>—</span> GV</div>
+      </div>
+    </section>
+
+    <section class="stats-strip" aria-label="Diferenciais">
+      <div><span class="stat-icon">◈</span><strong>Catálogo organizado</strong><small>Encontre por jogo</small></div>
+      <div><span class="stat-icon">↗</span><strong>Contato direto</strong><small>Converse pelo WhatsApp</small></div>
+      <div><span class="stat-icon">◎</span><strong>Informações claras</strong><small>Confira cada anúncio</small></div>
+    </section>
+
+    <section class="catalog-section section-wrap" id="catalogo">
+      <div class="section-heading">
+        <div><div class="eyebrow"><span class="eyebrow-line"></span> ESCOLHA SUA PRÓXIMA CONTA</div><h2>Catálogo <span class="gold">em destaque.</span></h2></div>
+        <div class="catalog-count"><span id="resultCount">6</span> ANÚNCIOS</div>
+      </div>
+      <div class="catalog-tools">
+        <label class="search-box"><span>⌕</span><input id="searchInput" type="search" placeholder="Buscar conta ou característica..." aria-label="Buscar produtos"></label>
+        <div class="filter-list" id="filterList" aria-label="Filtrar por jogo">
+          <button class="filter-chip active" data-filter="Todos">Todos</button>
+          <button class="filter-chip" data-filter="Blox Fruits">Blox Fruits</button>
+          <button class="filter-chip" data-filter="Free Fire">Free Fire</button>
+          <button class="filter-chip" data-filter="Roblox">Roblox</button>
+          <button class="filter-chip" data-filter="Outros jogos">Outros jogos</button>
+        </div>
+      </div>
+      <div class="product-grid" id="productGrid" aria-live="polite"></div>
+      <div class="empty-state" id="emptyState" hidden><span>⌕</span><h3>Nenhum anúncio encontrado</h3><p>Tente outro termo ou selecione outra categoria.</p></div>
+      <p class="catalog-note">Os anúncios exibidos são exemplos demonstrativos. Confirme disponibilidade, detalhes e condições diretamente com o vendedor.</p>
+    </section>
+
+    <section class="how-section" id="como-funciona">
+      <div class="section-wrap how-inner">
+        <div><div class="eyebrow"><span class="eyebrow-line"></span> SIMPLES E DIRETO</div><h2>Do catálogo<br>à conversa.</h2><p class="how-intro">Escolha o anúncio que combina com você e tire suas dúvidas antes de fechar negócio.</p></div>
+        <div class="steps">
+          <article class="step"><span class="step-number">01</span><div><h3>Explore</h3><p>Use os filtros e confira os detalhes de cada anúncio.</p></div><span class="step-arrow">↗</span></article>
+          <article class="step"><span class="step-number">02</span><div><h3>Converse</h3><p>Toque em “Consultar no WhatsApp” para falar com a loja.</p></div><span class="step-arrow">↗</span></article>
+          <article class="step"><span class="step-number">03</span><div><h3>Confirme</h3><p>Verifique os dados, as regras do jogo e as condições antes de pagar.</p></div><span class="step-arrow">↗</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-section section-wrap">
+      <div class="trust-card"><div class="trust-emblem">✦</div><div><div class="eyebrow">COMPRE COM ATENÇÃO</div><h2>Informação primeiro.<br><span class="gold">Decisão depois.</span></h2><p>Confira o que está incluído, a disponibilidade e as condições de entrega. Nunca compartilhe senhas pessoais ou códigos de segurança da sua conta principal.</p></div><a class="button button-outline" href="#duvidas">Ver dúvidas frequentes <span>→</span></a></div>
+    </section>
+
+    <section class="faq-section section-wrap" id="duvidas">
+      <div class="section-heading"><div><div class="eyebrow"><span class="eyebrow-line"></span> PRECISA DE AJUDA?</div><h2>Dúvidas <span class="gold">frequentes.</span></h2></div></div>
+      <div class="faq-list">
+        <details><summary>Como faço para comprar? <span>＋</span></summary><p>Escolha um anúncio e clique em “Consultar no WhatsApp”. Confirme disponibilidade, descrição, preço final e condições antes de realizar qualquer pagamento.</p></details>
+        <details><summary>Os anúncios e preços são reais? <span>＋</span></summary><p>Os anúncios que vêm no modelo do site são exemplos. Edite os produtos no arquivo script.js com suas ofertas reais e mantenha as informações atualizadas.</p></details>
+        <details><summary>A venda de contas é permitida em todos os jogos? <span>＋</span></summary><p>Não necessariamente. As regras variam de jogo para jogo e podem proibir transferências ou vendas de contas. Consulte os termos oficiais de cada jogo antes de anunciar.</p></details>
+        <details><summary>O site recebe pagamentos automaticamente? <span>＋</span></summary><p>Não. Esta versão direciona o cliente ao WhatsApp e não coleta pagamentos nem armazena dados bancários.</p></details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="#inicio"><span class="brand-mark">GV</span><span>GAME<span class="gold">VAULT</span><small>GAMING MARKETPLACE</small></span></a>
+    <p>Um marketplace independente feito para jogadores.</p>
+    <div class="footer-bottom"><span>© <span id="year"></span> Game Vault. Todos os direitos reservados.</span><a href="#duvidas">Dúvidas e condições</a></div>
+    <p class="legal-note">Game Vault não é afiliada, patrocinada ou endossada pelos jogos mencionados. Marcas e nomes pertencem aos seus respectivos titulares.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
